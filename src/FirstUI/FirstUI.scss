@@ -31,12 +31,12 @@
     max-height: 1019rem;
     background: transparent linear-gradient(180deg, #184261 0%, #029FA4 100%) 0% 0% no-repeat padding-box;
     position: relative;
-    border:2px solid greenyellow;
+    // border:2px solid greenyellow;
     
 
     
     #Navbar{
-            border:1rem solid rgb(255, 255, 255);
+            // border:1rem solid rgb(255, 255, 255);
             height:111rem;
             position: absolute;
             display: flex;
@@ -47,7 +47,7 @@
             #Logo_Div{
                 width:163rem;
                 height:48rem;
-                 border: 1rem solid orange;
+                //  border: 1rem solid orange;
                 position: absolute;
                 top:29rem;
                 left:100rem;
@@ -118,7 +118,7 @@
 
 
     #Conskid_wrapper{
-       border:1rem solid greenyellow;
+    //    border:1rem solid greenyellow;
         height:704rem;
         position: absolute;
         justify-content: center;
@@ -138,9 +138,9 @@ padding-left: 60rem !important;
             p{
                 font-size: 70rem;
                  
-                @media screen and (max-width:1030px){
+                @media screen and (max-width:850px){
                     &{
-                        font-size: 60rem;
+                        font-size: 50rem;
                     }
                 }
                    
@@ -175,7 +175,7 @@ padding-left: 60rem !important;
                 font-size: 40rem !important;
                 font-family: UbantuR;
                 color:white;
-                 border:1rem solid greenyellow;
+                //  border:1rem solid greenyellow;
                 padding-top: 60rem;
                 letter-spacing: 1.2px;
                 line-height: 80rem;

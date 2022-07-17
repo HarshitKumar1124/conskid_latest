@@ -18,13 +18,18 @@
     
     position: absolute;
     top:2870rem;
-    border:1rem solid black;
+    // border:1rem solid black;
     justify-content: center;
     background-color: #F5F5F5;
 
     @media screen and (max-width:949px) {
         &{
             top:3180rem;
+        }
+    }
+    @media screen and (max-width:800px) {
+        &{
+            top:2700rem;
         }
     }
     
@@ -44,14 +49,14 @@
         margin: 30rem 0rem;
         width:74%;
 
-        .mySwiper{
-             border:2px dotted red;
+        // .mySwiper{
+        //      border:2px dotted red;
             
             
-        }
+        // }
 
         .swiper-slide{
-            position: relative;
+            // position: relative;
             left:0rem;
             margin:0rem !important
         }

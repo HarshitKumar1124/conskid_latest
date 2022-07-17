@@ -21,7 +21,7 @@
 }
 
 #Journey {
-  border: 4rem solid black;
+  /* border: 4rem solid black; */
   position: absolute;
   top: 3450rem;
 }
@@ -61,19 +61,25 @@
 }
 
 #Testimonial {
-  border: 1rem solid magenta;
+  /* border: 1rem solid magenta; */
   height: 910rem;
   position: absolute;
-  top: 4500rem;
+  top: 4700rem;
   -ms-flex-line-pack: start;
       align-content: flex-start;
 }
 
-@media screen and (max-width: 948px) {
+@media screen and (max-width: 800px) {
   #Testimonial {
-    top: 4780rem;
+    top: 3712rem;
   }
 }
+@media screen and (max-width: 701px) {
+  #Testimonial {
+    top: 3637rem;
+  }
+}
+
 
 #Testimonial #Testimonial_Heading {
   font-size: 70rem;
@@ -83,7 +89,7 @@
 }
 
 #Testimonial #Testimonial_Carousel {
-  border: 4rem solid dodgerblue;
+  /* border: 4rem solid dodgerblue; */
   height: 90%;
 }
 
@@ -95,7 +101,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18rem;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   padding-top: 3%;
   margin: 0px 20rem;
   position: relative;
@@ -124,7 +130,7 @@
 .Card {
   width: 535rem;
   height: 644rem;
-  border: 2px solid dodgerblue;
+  /* border: 2px solid dodgerblue; */
   -webkit-box-shadow: 0px 0px 80px #0000001b;
           box-shadow: 0px 0px 80px #0000001b;
   position: relative;
@@ -138,17 +144,13 @@
 }
 
 .Card .Card_Text_Holder {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   padding: 52rem 0rem 0rem 78rem;
   position: relative;
   font-size: 40rem;
 }
 
-@media screen and (max-width: 947px) {
-  .Card .Card_Text_Holder {
-    padding: 0% 0rem 0rem 5%;
-  }
-}
+
 
 .Card .Name_Holder {
   height: 220rem;
@@ -207,3 +209,12 @@
   overflow: hidden;
 }
 /*# sourceMappingURL=Journey.css.map */
+@media screen and (max-width: 947px) {
+  .Card .Card_Text_Holder {
+    padding: 0% 0rem 0rem 5%;
+  }
+  .Card .Name_Holder div p{
+    font-size: 12px;
+    padding-top: 57rem;
+  }
+}

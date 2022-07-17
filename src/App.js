@@ -7,6 +7,7 @@ import Journey from "./Journey/Journey"
 import Why from "./Why/Why"
 import Services from "./Services/Services"
 import LoginPage from "./Login/Login"
+// import ComingSoon from './ComingSoon/ComingSoon';
 
 const App = () => {
 
@@ -31,7 +32,6 @@ const App = () => {
           <Why/>
           <Journey/>
           <Footer/>
-         
           <a href="#App_Container"><div id="Nav_To_Top"style={{fontSize:"50rem"}}>&#11161;</div></a>
 
           

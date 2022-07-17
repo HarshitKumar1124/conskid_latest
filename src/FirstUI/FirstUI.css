@@ -27,14 +27,20 @@
 
 #FirstUI_BG {
   max-height: 1019rem;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(#184261), to(#029FA4)) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(180deg, #184261 0%, #029FA4 100%) 0% 0% no-repeat padding-box;
+  /* background: transparent -webkit-gradient(linear, left top, left bottom, from(#184261), to(#029FA4)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #184261 0%, #029FA4 100%) 0% 0% no-repeat padding-box; */
   position: relative;
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
+}
+@media screen and (min-width:800px) {
+  #FirstUI_BG{
+    background: transparent webkit-gradient(linear, left top, left bottom, from(#184261), to(#029FA4)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #184261 0%, #029FA4 100%) 0% 0% no-repeat padding-box;
+  }  
 }
 
 #FirstUI_BG #Navbar {
-  border: 1rem solid white;
+  /* border: 1rem solid white; */
   height: 111rem;
   position: absolute;
   display: -webkit-box;
@@ -48,19 +54,26 @@
 #FirstUI_BG #Navbar #Logo_Div {
   width: 163rem;
   height: 48rem;
-  border: 1rem solid orange;
+  /* border: 1rem solid orange; */
   position: absolute;
   top: 29rem;
   left: 100rem;
 }
 
 #FirstUI_BG #Navbar #Logo_Div img {
-  width: 100%;
-  height: 100%;
+  width: 111%;
+    height: 160%;
+}
+@media screen and (min-width:850px) {
+  #FirstUI_BG #Navbar #Logo_Div img {
+    
+    filter: invert(100%);
+  }
+  
 }
 
 #FirstUI_BG #Navbar #Service_Resource_Button {
-  border: 2rem solid #ff00bf;
+  /* border: 2rem solid #ff00bf; */
   width: 29%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -74,7 +87,7 @@
   font-size: 35rem;
   color: white;
   font-family: CalibriB;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 @media screen and (max-width: 984px) {
@@ -90,7 +103,7 @@
 }
 
 #FirstUI_BG #Navbar #Profile_Icon {
-  width: 162rem;
+  width: 215rem;
   height: 65rem;
   background-color: white;
   border-radius: 52rem;
@@ -108,7 +121,7 @@
 }
 
 #FirstUI_BG #Conskid_wrapper {
-  border: 1rem solid greenyellow;
+  /* border: 1rem solid greenyellow; */
   height: 704rem;
   position: absolute;
   -webkit-box-pack: center;
@@ -124,8 +137,25 @@
 }
 
 @media screen and (max-width: 890px) {
+  #FirstUI_BG {
+    /* bottom: 0; */
+    max-height: 869rem;
+}
+
+  #FirstUI_BG #Conskid_wrapper{
+    /* bottom: 0; */
+    padding: 0;
+    height: 70%;
+  }
+
   #FirstUI_BG #Conskid_wrapper #Non_vector {
     padding-left: 5% !important;
+    border-radius: 12px;
+    width: 90%;
+    /* height: 70%; */
+  }
+  #FirstUI_BG #Conskid_wrapper #Non_vector pre{
+    font-size: 3px;
   }
 }
 
@@ -135,7 +165,7 @@
   text-align: left;
   font: normal normal medium 120px/140px UbuntuM;
   color: white;
-  border: 1rem solid Red;
+  /* border: 1rem solid Red; */
 }
 
 @media screen and (max-width: 1030px) {
@@ -160,24 +190,22 @@
 }
 
 #FirstUI_BG #Conskid_wrapper #Non_vector pre {
-  font-size: 40rem !important;
+  font-size: 40rem ;
   font-family: UbantuR;
   color: white;
-  border: 1rem solid greenyellow;
+  /* border: 1rem solid greenyellow; */
   padding-top: 60rem;
   letter-spacing: 1.2px;
   line-height: 80rem;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 890px) {
   #FirstUI_BG #Conskid_wrapper #Non_vector pre {
     font-size: 25rem;
   }
-}
-
-@media screen and (max-width: 890px) {
-  #FirstUI_BG #Conskid_wrapper #Non_vector pre {
-    font-size: 10rem;
+  #FirstUI_BG #Navbar #Logo_Div {
+    
+    left: 60rem;
   }
 }
 
@@ -189,7 +217,7 @@
   height: 10%;
   color: black;
   font-family: UbantuB;
-  font-size: 45rem;
+  font-size: 35rem;
   text-align: center;
   padding-top: 7rem;
   -webkit-transform: scale(1);
@@ -209,13 +237,66 @@
 @media screen and (max-width: 1030px) {
   #FirstUI_BG #Conskid_wrapper #Non_vector #Join_Button {
     font-size: 40rem;
+   
+  }
+}
+@media screen and (max-width: 800px){
+  #upper_text{
+    word-wrap: normal ;
+  }
+    /* #Profile_Icon{
+      display: none;
+    } */
+  #Mainvector{
+    display: none;
+ }
+ #Join_Button{
+  width: 33vw;
+ }
+ #Non_vector{
+  background: transparent linear-gradient(180deg, #184261 0%, #029FA4 100%) 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ /* #Conskid_wrapper{
+  margin: 23px;
+ } */
+
+ 
+}
+@media screen and (max-width:909px){
+  #FirstUI_BG #Conskid_wrapper #Mainvector #vector {
+    display: none;
+  }
+}
+@media screen and (max-width:890px) {
+
+  #FirstUI_BG #Conskid_wrapper #Non_vector #Join_Button {
+    font-size: 35rem;
+    height: 15%;
   }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 800px) {
+  
   #FirstUI_BG #Conskid_wrapper #Non_vector #Join_Button {
-    font-size: 35rem;
+    width: 36vw;
+    margin-top: 20rem;
+    border-radius: 31rem;
+    height: 80%;
+    color: #14556e;
+    font-family: UbantuB;
+    font-size: 30rem;
+    text-align: center;
+    padding: 7rem;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
+  #FirstUI_BG #Conskid_wrapper #Non_vector {
+    padding-top: 0 !important;
+}
 }
 
 #FirstUI_BG #Conskid_wrapper #Mainvector {

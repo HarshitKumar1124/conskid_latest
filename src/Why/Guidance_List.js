@@ -1,4 +1,4 @@
-import course from "../Asset/course.svg"
+import Course from "../Asset/course.svg"
 import Guidance from "../Asset/guidance.svg"
 import Internship from "../Asset/internship.svg"
 
@@ -13,7 +13,7 @@ const Guidance_ContentList=[{
     id:"2",
     Heading: "Certified Courses",
     Content:"Develop skills relevant to current market demands to land into an internship or a full time job offer.",
-    Logo: course
+    Logo: Course
 },
 {
     id:"3",

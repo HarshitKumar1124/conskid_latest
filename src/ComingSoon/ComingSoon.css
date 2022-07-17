@@ -14,7 +14,7 @@
 #ComingSoon_container {
   width: 100vw;
   min-height: 1080rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 #Building {

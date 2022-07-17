@@ -72,8 +72,8 @@ const ComingSoon = () => {
                             <div style={{ width: "657rem", height: "65rem", display: "flex" }}>
                                 {/* border: "2px solid green", */}
                             
-                                <input type="email" placeholder="YOUR EMAIL" value={email} onChange={UpdateEmail} style={{ width: "70%", height: "100%", color: "#ACACAC", fontSize: "30rem", padding: "16rem 0 16rem 29rem" }} />
-                                <input type="submit" value="NOTIFY ME" style={{ backgroundColor: "#00A1A4", color: "white", fontSize: "30rem", fontFamily: "UbantuM", width: "30%", textAlign: "center", padding: "16rem 0rem" }} onClick={Notify_Click}/>
+                                <input type="email" placeholder="YOUR EMAIL" value={email} onChange={UpdateEmail} style={{ width: "70%", height: "100%", color: "#ACACAC", fontSize: "30rem", padding: "16rem 0 16rem 29rem", border:"none" }} />
+                                <input type="submit" value="NOTIFY ME" style={{ backgroundColor: "#00A1A4", color: "white", fontSize: "30rem", fontFamily: "UbantuM", width: "30%", textAlign: "center", padding: "16rem 0rem" , border:"none" }} onClick={Notify_Click}/>
                          
                             </div>
 

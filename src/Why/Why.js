@@ -26,7 +26,7 @@ const Why = () => {
 
           <Swiper
 
-            effect={"coverflow"}
+            // effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
             coverflowEffect={{

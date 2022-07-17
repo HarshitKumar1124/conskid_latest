@@ -7,10 +7,15 @@
 
 #App_Container {
   width: 100vw;
-  min-height: 5950rem;
+  min-height: 5952rem;
   background-color: #F5F5F5 !important;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   position: absolute;
+}
+@media screen and (max-width:800px) {
+    #App_Container{
+      min-height: 4930rem;
+    }
 }
 
 #App_Container a #Nav_To_Top {

@@ -26,8 +26,8 @@
 }
 
 #Service_Container {
-  border: 4rem solid #ff1eff;
-  background-color: #F5F5F5;
+  /* border: 4rem solid #ff1eff; */
+  /* background-color: #F5F5F5; */
   position: absolute;
   top: 1000rem;
   width: 100vw;
@@ -40,19 +40,19 @@
   padding-bottom: 20rem;
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
   #Service_Container {
     top: 1120rem;
   }
-}
+} */
 
 #Service_Container #Service_Heading {
-  border: 2rem dotted orange;
+  /* border: 2rem dotted orange; */
   font-size: 50rem;
   color: #164966;
   font-family: UbantuM;
   text-align: center;
-  margin-top: 25rem;
+  margin : 25rem 0;
 }
 
 #Service_Container #Conskid_define_container {
@@ -75,14 +75,14 @@
 }
 
 #Service_Container #Service_Template_container {
-  border: 4rem solid yellow;
+  /* border: 4rem solid yellow; */
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 #Service_Container #Service_Template_container #Template_container {
-  border: 2px solid dodgerblue;
+  /* border: 2px solid dodgerblue; */
   width: 1654rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -161,5 +161,40 @@
 #ourservicestext {
   font-family: UbantuM;
   margin: 10rem 0rem;
+}
+@media screen and (max-width:800px){
+  #Service_Container{
+    top:609rem;
+  }
+  #WhatConskid{
+    top: 3rem;
+    padding: 4px 12px;
+    width: 80%;
+    margin:32px 123px;
+  }
+  #Journey{
+    display: none;
+  }
+  #Service_Container #Service_Template_container #Template_container .Template {
+    width: 260rem;
+    height: 295rem;
+    margin: 12rem 12rem;
+}
+#Service_Container #Service_Template_container #Template_container .Template .DP_Logo img {
+  width: 163rem;
+  height: 119rem;
+}
+#Service_Container #Service_Template_container #Template_container .Template .Template_content p {
+  font-size: 25rem;
+}
+#Service_Container #Service_Template_container #Template_container .Template .Template_content span{
+  font-size: 14rem;
+}
+#Service_Container #Service_Template_container #Template_container .Template .Template_content #TemplateButton {
+  font-size: 15rem;
+  width: 136rem;
+  height: 36rem;
+}
+  
 }
 /*# sourceMappingURL=Services.css.map */

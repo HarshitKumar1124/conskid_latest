@@ -16,18 +16,21 @@
 }
 
 #Why_Container {
-  position: absolute;
-  top: 2870rem;
-  border: 1rem solid black;
+  /* position: absolute; */
+  /* top: 2870rem; */
+  /* border: 1rem solid black; */
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #F5F5F5;
 }
 
-@media screen and (max-width: 949px) {
+@media screen and (max-width: 509px) {
   #Why_Container {
-    top: 3180rem;
+    margin-top: 199px;
+  }
+  #Why_Container #Why_Heading{
+    display: none ;
   }
 }
 
@@ -45,9 +48,10 @@
   width: 74%;
 }
 
-#Why_Container #Template_container .mySwiper {
+
+/* #Why_Container #Template_container .mySwiper {
   border: 2px dotted red;
-}
+} */
 
 #Why_Container #Template_container .swiper-slide {
   position: relative;
@@ -71,7 +75,7 @@
   font-family: CalibriB;
   color: #000000;
   position: absolute;
-  top: 69rem;
+  top: 69rem; 
   background-color: #E9EEFD;
 }
 
@@ -99,4 +103,42 @@
 .swiper-pagination-bullet-active {
   background-color: #029FA4;
 }
-/*# sourceMappingURL=Why.css.map */
+/* # sourceMappingURL=Why.css.map  */
+ @media screen and (max-width:850px) {
+  #Why_Container #Template_container .Template .HeadBlock .Heading {
+    font-size: 35rem;
+    position: absolute;
+    top: 10 rem; 
+  }
+  #Why_Container #Template_container .Template .HeadBlock{
+    width: 379rem;
+    height: 57%;
+  }
+  #Why_Container #Template_container .Template .HeadBlock .SomeText {
+    font-size: 20rem;
+    text-align: left;
+    position: absolute;
+    top: 131.3rem;
+  }
+  #Why_Container #Template_container .Template .vectorBlock {
+    width: 405rem;
+    height: 313rem;
+  }
+  
+  #Why_Container #Template_container .Template .vectorBlock img {
+    margin: auto;
+    text-align: center;
+    margin-top: 17px;
+    width: 60%;
+    height: 60%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  
+}
+@media screen and (max-width:650px){
+  #Why_Container #Template_container .Template .vectorBlock img {
+    width: 50%;
+    height: 41%;
+}
+}

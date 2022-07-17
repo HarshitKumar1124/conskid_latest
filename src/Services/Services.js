@@ -42,14 +42,14 @@ const Services = () => {
                     <Grid item container id="Template_container" >
 
 
-                        <Template Heading={Services_Object[0].Heading} Logo={InternshipPool} id={Services_Object[0].Heading}  Description = {Services_Object[0].Description}/>
-                        <Template Heading={Services_Object[1].Heading} Logo={ResumeBuilder} id={Services_Object[1].Heading}  Description = {Services_Object[1].Description}/>
-                        <Template Heading={Services_Object[2].Heading} Logo={OffCampusPlacement} id={Services_Object[2].Heading}  Description = {Services_Object[2].Description}/>
-                        <Template Heading={Services_Object[3].Heading} Logo={Campaign} id={Services_Object[3].Heading}  Description = {Services_Object[3].Description}/>
-                        <Template Heading={Services_Object[4].Heading} Logo={CareerCounselling} id={Services_Object[4].Heading}  Description = {Services_Object[4].Description}/>
-                        <Template Heading={Services_Object[5].Heading} Logo={MockInterview} id={Services_Object[5].Heading}  Description = {Services_Object[5].Description}/>
-                        <Template Heading={Services_Object[6].Heading} Logo={CertifiedCourses}id={Services_Object[6].Heading} Description = {Services_Object[6].Description} />
-                        <Template Heading={Services_Object[7].Heading} Logo={SummerTraining}  id={Services_Object[7].Heading} Description = {Services_Object[7].Description} />
+                        <Template Heading={Services_Object[0].Heading} Logo={InternshipPool} id={Services_Object[0].Heading}  Description = {Services_Object[0].Description} Link = {Services_Object[0].Link}/>
+                        <Template Heading={Services_Object[1].Heading} Logo={ResumeBuilder} id={Services_Object[1].Heading}  Description = {Services_Object[1].Description} Link = {Services_Object[1].Link}/>
+                        <Template Heading={Services_Object[2].Heading} Logo={OffCampusPlacement} id={Services_Object[2].Heading}  Description = {Services_Object[2].Description} Link = {Services_Object[2].Link}/>
+                        <Template Heading={Services_Object[3].Heading} Logo={Campaign} id={Services_Object[3].Heading}  Description = {Services_Object[3].Description} Link = {Services_Object[3].Link}/>
+                        <Template Heading={Services_Object[4].Heading} Logo={CareerCounselling} id={Services_Object[4].Heading}  Description = {Services_Object[4].Description} Link = {Services_Object[4].Link}/>
+                        <Template Heading={Services_Object[5].Heading} Logo={MockInterview} id={Services_Object[5].Heading}  Description = {Services_Object[5].Description} Link = {Services_Object[5].Link}/>
+                        <Template Heading={Services_Object[6].Heading} Logo={CertifiedCourses}id={Services_Object[6].Heading} Description = {Services_Object[6].Description} Link = {Services_Object[6].Link} />
+                        <Template Heading={Services_Object[7].Heading} Logo={SummerTraining}  id={Services_Object[7].Heading} Description = {Services_Object[7].Description} Link = {Services_Object[7].Link} />
 
                     </Grid>
 

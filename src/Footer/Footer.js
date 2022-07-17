@@ -16,12 +16,12 @@ const Footer = () => {
 
                 <Grid item xs={4} className="box1">
                     <Grid item xs={12} className="content1">
-                        <p>Email your queries <br />or get in touch with us</p>
+                        <p className='para'>Email your queries <br />or get in touch with us</p>
                         <div id="ContactUs">Contact Us</div>
                     
                         <Grid id="MailCall">
                             <p><MailIcon style={{fontSize:"30rem",color:"white"}}/> <a href="mailto:info@conskid.com">info@conskid.com</a></p>
-                            <p><CallIcon style={{fontSize:"30rem",color:"white"}}/> 9582890202</p>
+                            <p><CallIcon style={{fontSize:"30rem",color:"white"}}/> +919024838979</p>
                         </Grid>
 
                         <Grid id="SocialHandles">

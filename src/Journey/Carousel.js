@@ -24,7 +24,7 @@ const Carousel = () => {
     const [slides,setslide] = useState(3);
 
     useEffect(() => {
-        (window.innerWidth <=840)?setslide(2):setslide(3)
+        (window.innerWidth <=800)?setslide(1):setslide(3)
     })
     
     SwiperCore.use([Pagination, Navigation]);
@@ -32,7 +32,7 @@ const Carousel = () => {
         <>
           
 
-            <Swiper  slidesPerView={slides} spaceBetween={-60} slidesPerGroup={3} loop={true} loopFillGroupWithBlank={false} pagination={{
+            <Swiper  slidesPerView={slides} spaceBetween={-50} slidesPerGroup={(window.innerWidth <=800)?1:3} loop={true} loopFillGroupWithBlank={false} pagination={{
                 "clickable": true
             }} navigation={true} modules={[ Pagination, Navigation]} className="mySwiper">
 

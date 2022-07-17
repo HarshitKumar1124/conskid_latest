@@ -10,9 +10,9 @@ import Grid from "@material-ui/core/Grid"
 
 const Template = (props) => {
 
-    const message=()=>{
-        alert("hi")
-    }
+    // const message=()=>{
+    //     alert("hi")
+    // }
 
     
     return (
@@ -30,7 +30,7 @@ const Template = (props) => {
                     <span id="Description">{props.Description}</span>
                     <Grid className='ButtonContainer' item container>
 
-                    <button id="TemplateButton" onClick={message}>Know More</button>
+                    <button id="TemplateButton" ><a href={props.Link} target= '_blank' style={{'textDecoration':'none', color:'white'}}>Know More</a></button>
 
                     </Grid>
 
